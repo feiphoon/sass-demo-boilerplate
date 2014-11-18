@@ -15,7 +15,3 @@ end
 get '/' do
   haml :index
 end
-
-get '/partial' do
-  haml :partial
-end
